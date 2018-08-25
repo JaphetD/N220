@@ -1,0 +1,7 @@
+.greenbox {
+    margin: 10px;
+    background-color: #00FF00;
+    width:100px;
+    height:100px;
+    float: left;
+}

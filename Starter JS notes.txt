@@ -1,0 +1,15 @@
+In each .js file at the top write: 'use scrict'; 
+
+// - means computer will not interpret (Like a comment, similar to writing your name on a paper)
+Example: 
+//Japhet Diaz 
+//8.23.2017 
+//N220
+
+function doChange() {
+   dvWorld.innerHTML = "Hello Square.";
+}
+
+function doChange() {
+   console.log = ("Hello Square.");
+}

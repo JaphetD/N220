@@ -1,0 +1,60 @@
+Javascript: is not Java, the language of the web, runs in the virtual machine.
+
+ECMAScript:Technical specification of Javascript, Originally developed for Netscape Navigator(Mozilla Firefox).
+
+Interperated: Is Interpretation.
+
+Virtual machine: A program that does the interpretation  for you.
+
+Values in code: Programming is about manipulating values and data. Values are stored in three major ways in a script:Variables,objects,and arrays. 
+These values are stored in your computer's memory(RAM).
+
+Variables: They hold values. Example: "Hello World" 
+
+Basic Variable Types: Number:1052, Strings:Bonjour. 
+
+Making a variable: var myName = "A. Name";
+                   var age = 42;
+
+                   console.log(myName)
+
+                   myName = "Same variable, different name."
+
+                   console.log(myName)
+
+=(equal):Always sets a variable, puts something from the left into the right.
+
+If statements:Lets you make decisions, based off boleans.
+
+if (condition) {
+	//Writes to the DOM
+	document.write("Hello world");
+}
+
+Logical Operators: Lets myou make booleans by comparing two values. ==(equals) !=(does not equal)
+
+console.log("Hello" == "Hello"):True
+
+console.log("Hello" != "Hello"):False
+
+Always should be double equal signs in IF statments, single equal signs in other statement 
+
+How to get input from the user:
+
+<input id= "txtInput" /> Give elements IDs so js can find them.
+
+var txtInput = document.querySelector("#txtInput"); Finding the input in java.
+
+<button onclick="getInput()"></button>
+
+//This runs when a button is clicked
+function getInput() { 
+	//always get a value inside of a function
+	var name = txtInput.value;
+	
+}
+
+if(name == "Zenyatta") {
+
+
+

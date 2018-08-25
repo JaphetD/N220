@@ -1,0 +1,27 @@
+Infinite loop:
+<html>
+<head>
+</head>
+
+<script src=js/app.js></script>
+<html>
+
+JS: var i = 0; 
+	
+while (i < 10) {
+	console.log(i);
+	i++;
+}
+
+For loop:
+
+for (var = 0; i < 10; i++) {
+	console.log(i);
+	if(i > 50) {
+	break;
+}
+}
+
+
+
+

@@ -1,0 +1,143 @@
+Variables: Store values. 
+
+Values: can be anything.Numbers,Strings,Booleans,HTML Elements, HTML Inputs
+
+To make a variable: var myVar;
+
+And then putting stuff into variables: use "="
+
+Example:var something = 'Hello';
+	something = 'Goodbye';
+
+Three major variables in the "real world": Numbers, Strings, Booleans.
+
+Numbers: Store numbers. All kinds of numbers.
+
+Example:var first = 10; 
+
+Strings: var another = 'Hello world!'; or var another = "Hello world!";
+
+Booleans: Store True or false.
+
+var isCold = false;
+var isWarm = true;
+
+"\"= Do something different with the upcoming code.
+
+Operands: Variable manipulation.
+
+var a = 4;
+var b = 2;
+
+//addition
+var c = a + b; //6
+
+//subtraction
+var d = a - b; // 2
+
+//multiplication
+var e = a * b; //8
+
+//division
+var f = a / b; //2
+
+//modulo
+var g = a % b; // 0 (Modulo is the remainder of a division) 
+
+Incrementing/Decrementing
+
+var a = 5;
+
+//incrementing
+a = a + 1; //a == 6
+
+//decrementing
+a = a - 3; //a == 3
+
+//multiplenting? (this and the next are not real words)
+a = a * 2; //6
+
+//divisiplexing?
+a = a / 3; //2
+
+Shorthand version: remove variable a in the equation.
+
+Example: a+=1;//a==6
+
+String Concatenation: Can also do math with strings.
+
+Example:var first = "Hello";
+var last = "World";
+var else = first + last; //'HelloWorld';
+
+functions: way to package up a block of code to run later.
+
+function sayHello() {
+	console.log("Hello");
+}
+
+To run this function: sayHello();
+
+Arguments=Inputs.
+
+plusFive(25, "apples");
+plusFive(30, "galaxies");
+plusFive(100, "sneezes");
+
+function plustFive(a,objects) {
+	var b = a + 5;
+	console.log(b+ " " + objects);
+}
+
+function returns:Pulls out a value and lets you use it again.
+
+var plusApples = plusFive(25, "apples");
+console.log(r);
+plusFive(30, "galaxies");
+plusFive(100, "sneezes");
+
+function plustFive(a,objects) {
+	var b = a + 5;
+	console.log(b+ " " + objects);
+	return r;
+}
+
+Scoping: Variables that are in curly brackets live and die there.
+But Variables created outside of the curly brackets live.
+
+var playerPoints = 0;
+	{
+}
+
+Getting Input: 
+(HTML)
+<div id="dvOutput"></div>
+<input id="userName" />
+<button onclick="sayHello()">Submit</button>
+(/HTML)
+
+(JS)
+
+var userName = document.querySelector("#userName");
+var dvOutput = document.querySelector("#dvOutput");
+
+function sayHello() {
+	var inputValue = userName.value;
+
+	var greeting = "Hello " + inputValue;
+
+	dvOutput.innerHTML = greeting;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
